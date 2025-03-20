@@ -220,5 +220,3 @@ async def delete_found_item(
     await db.delete(db_item)
     await db.commit()
     return {"message": "Item deleted"}
-
-
